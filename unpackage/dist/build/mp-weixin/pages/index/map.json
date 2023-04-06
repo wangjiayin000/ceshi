@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "周边配套",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "fa-navbar": "/components/fa-navbar/fa-navbar"
+  }
+}

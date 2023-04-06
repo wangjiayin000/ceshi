@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "授权",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "fa-navbar": "/components/fa-navbar/fa-navbar",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-top-tips": "/uview-ui/components/u-top-tips/u-top-tips"
+  }
+}

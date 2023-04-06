@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page {
+  background-color: #f4f6f8;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.map-view.data-v-0a1e5ef6 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.map-view .map.data-v-0a1e5ef6 {
+  flex: 1;
+  width: 100%;
+}
+.footer-text.data-v-0a1e5ef6,
+.footer-option.data-v-0a1e5ef6,
+.foot-select.data-v-0a1e5ef6 {
+  position: fixed;
+  height: 80rpx;
+  border: 1px solid #2b85e4;
+  box-sizing: border-box;
+}
+.footer-text.data-v-0a1e5ef6,
+.footer-option.data-v-0a1e5ef6 {
+  background-color: #ffffff;
+  bottom: 80rpx;
+}
+.foot-select.data-v-0a1e5ef6 {
+  bottom: 180rpx;
+  width: 80vw;
+  left: 10vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10rpx 20rpx;
+}
+.foot-select .item.data-v-0a1e5ef6 {
+  color: #999;
+  text-align: center;
+  line-height: 60rpx;
+}
+.foot-select .item.active.data-v-0a1e5ef6 {
+  color: #dd6161;
+  font-weight: bold;
+}
+.footer-text.data-v-0a1e5ef6 {
+  width: 60vw;
+  left: 10vw;
+  padding: 20rpx 10rpx;
+}
+.footer-input.data-v-0a1e5ef6 {
+  width: 100%;
+  height: 100%;
+}
+.footer-option.data-v-0a1e5ef6 {
+  padding: 10rpx;
+  width: 17vw;
+  right: 10vw;
+  text-align: center;
+  line-height: 60rpx;
+}
+

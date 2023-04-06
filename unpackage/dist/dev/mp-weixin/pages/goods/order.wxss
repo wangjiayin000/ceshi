@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page {
+  background-color: #f4f6f8;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.list.data-v-6ad5d8ec {
+  background-color: #ffffff;
+}
+.list .item.data-v-6ad5d8ec {
+  border-bottom: 1px solid #f4f6f8;
+}
+.list .item image.data-v-6ad5d8ec {
+  width: 200rpx;
+  height: 170rpx;
+  border-radius: 5rpx;
+}
+.list .item .right.data-v-6ad5d8ec {
+  padding: 15rpx;
+  height: 170rpx;
+  display: flex;
+  flex-direction: column;
+}
+.notes.data-v-6ad5d8ec {
+  margin-top: 30rpx;
+  padding: 0 30rpx;
+  background-color: #ffffff;
+}
+.coupon.data-v-6ad5d8ec {
+  text-align: right;
+  width: 100%;
+}
+.footer-bar.data-v-6ad5d8ec {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  background-color: #ffffff;
+  padding: 0 30rpx;
+  z-index: 9999;
+}
+

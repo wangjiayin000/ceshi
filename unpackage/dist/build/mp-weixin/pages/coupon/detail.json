@@ -1,0 +1,15 @@
+{
+  "navigationBarTitleText": "优惠券详情",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "fa-navbar": "/components/fa-navbar/fa-navbar",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-tabs": "/uview-ui/components/u-tabs/u-tabs",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "fa-swiper": "/components/fa-swiper/fa-swiper",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "fa-calendar": "/components/fa-calendar/fa-calendar"
+  }
+}

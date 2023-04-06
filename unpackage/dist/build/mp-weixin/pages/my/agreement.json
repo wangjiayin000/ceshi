@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "用户协议",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "fa-navbar": "/components/fa-navbar/fa-navbar",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "fa-tabbar": "/components/fa-tabbar/fa-tabbar"
+  }
+}

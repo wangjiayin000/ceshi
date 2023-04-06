@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uview-ui/components/u-table/u-table"],{"3e3c":function(t,e,n){"use strict";var r=n("f6da"),o=n.n(r);o.a},"4cdc":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var r={name:"u-table",props:{borderColor:{type:String,default:"#e4e7ed"},align:{type:String,default:"center"},padding:{type:String,default:"10rpx 6rpx"},fontSize:{type:[String,Number],default:28},color:{type:String,default:"#606266"},thStyle:{type:Object,default:function(){return{}}},bgColor:{type:String,default:"#ffffff"}},data:function(){return{}},computed:{tableStyle:function(){var t={};return t.borderLeft="solid 1px ".concat(this.borderColor),t.borderTop="solid 1px ".concat(this.borderColor),t.backgroundColor=this.bgColor,t}}};e.default=r},"66cb":function(t,e,n){"use strict";n.r(e);var r=n("f1e2"),o=n("f96d");for(var u in o)["default"].indexOf(u)<0&&function(t){n.d(e,t,(function(){return o[t]}))}(u);n("3e3c");var a=n("f0c5"),f=Object(a["a"])(o["default"],r["b"],r["c"],!1,null,"2981abcc",null,!1,r["a"],void 0);e["default"]=f.exports},f1e2:function(t,e,n){"use strict";n.d(e,"b",(function(){return r})),n.d(e,"c",(function(){return o})),n.d(e,"a",(function(){}));var r=function(){var t=this.$createElement,e=(this._self._c,this.__get_style([this.tableStyle]));this.$mp.data=Object.assign({},{$root:{s0:e}})},o=[]},f6da:function(t,e,n){},f96d:function(t,e,n){"use strict";n.r(e);var r=n("4cdc"),o=n.n(r);for(var u in r)["default"].indexOf(u)<0&&function(t){n.d(e,t,(function(){return r[t]}))}(u);e["default"]=o.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uview-ui/components/u-table/u-table-create-component',
+    {
+        'uview-ui/components/u-table/u-table-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("66cb"))
+        })
+    },
+    [['uview-ui/components/u-table/u-table-create-component']]
+]);

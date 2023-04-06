@@ -1,0 +1,30 @@
+
+page {
+	background-color: #ffffff;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.store-list.data-v-2286fa09 {
+  padding: 0 30rpx;
+}
+.store-list .item.data-v-2286fa09 {
+  height: 150rpx;
+  width: 65vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  line-height: 35rpx;
+}
+.footer.data-v-2286fa09 {
+  position: fixed;
+  padding: 20rpx 40rpx;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+}
+

@@ -1,0 +1,18 @@
+{
+  "navigationBarTitleText": "商品详情",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "fa-navbar": "/components/fa-navbar/fa-navbar",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-gap": "/uview-ui/components/u-gap/u-gap",
+    "fa-u-badge": "/components/fa-u-badge/fa-u-badge",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "fa-share": "/components/fa-share/fa-share",
+    "fa-poster": "/components/fa-poster/fa-poster",
+    "fa-tabbar": "/components/fa-tabbar/fa-tabbar"
+  }
+}

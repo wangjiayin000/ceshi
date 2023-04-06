@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["uview-ui/components/u-grid-item/u-grid-item"],{"14a2":function(t,e,n){"use strict";n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return a})),n.d(e,"a",(function(){}));var i=function(){var t=this.$createElement,e=(this._self._c,this.__get_style([this.customStyle]));this.$mp.data=Object.assign({},{$root:{s0:e}})},a=[]},"2e97":function(t,e,n){},"3cce":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var i={name:"u-grid-item",props:{bgColor:{type:String,default:"#ffffff"},index:{type:[Number,String],default:""},customStyle:{type:Object,default:function(){return{padding:"30rpx 0"}}}},data:function(){return{parentData:{hoverClass:"",col:3,border:!0}}},created:function(){this.updateParentData(),this.parent.children.push(this)},computed:{width:function(){return 100/Number(this.parentData.col)+"%"}},methods:{updateParentData:function(){this.getParentData("u-grid")},click:function(){this.$emit("click",this.index),this.parent&&this.parent.click(this.index)}}};e.default=i},"689f":function(t,e,n){"use strict";n.r(e);var i=n("3cce"),a=n.n(i);for(var r in i)["default"].indexOf(r)<0&&function(t){n.d(e,t,(function(){return i[t]}))}(r);e["default"]=a.a},"7d04":function(t,e,n){"use strict";n.r(e);var i=n("14a2"),a=n("689f");for(var r in a)["default"].indexOf(r)<0&&function(t){n.d(e,t,(function(){return a[t]}))}(r);n("a42a");var u=n("f0c5"),c=Object(u["a"])(a["default"],i["b"],i["c"],!1,null,"cbc68d3c",null,!1,i["a"],void 0);e["default"]=c.exports},a42a:function(t,e,n){"use strict";var i=n("2e97"),a=n.n(i);a.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'uview-ui/components/u-grid-item/u-grid-item-create-component',
+    {
+        'uview-ui/components/u-grid-item/u-grid-item-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("7d04"))
+        })
+    },
+    [['uview-ui/components/u-grid-item/u-grid-item-create-component']]
+]);

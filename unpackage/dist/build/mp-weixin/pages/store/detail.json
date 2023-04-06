@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "门店详情",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "fa-navbar": "/components/fa-navbar/fa-navbar",
+    "u-swiper": "/uview-ui/components/u-swiper/u-swiper",
+    "u-icon": "/uview-ui/components/u-icon/u-icon",
+    "u-parse": "/uview-ui/components/u-parse/u-parse",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-skeleton": "/uview-ui/components/u-skeleton/u-skeleton"
+  }
+}

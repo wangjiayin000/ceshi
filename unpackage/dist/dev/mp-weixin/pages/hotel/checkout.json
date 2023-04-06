@@ -1,0 +1,14 @@
+{
+  "navigationBarTitleText": "一键退房",
+  "navigationStyle": "custom",
+  "navigationBarTextStyle": "white",
+  "usingComponents": {
+    "fa-navbar": "/components/fa-navbar/fa-navbar",
+    "u-tag": "/uview-ui/components/u-tag/u-tag",
+    "fa-swiper": "/components/fa-swiper/fa-swiper",
+    "u-button": "/uview-ui/components/u-button/u-button",
+    "u-loadmore": "/uview-ui/components/u-loadmore/u-loadmore",
+    "u-back-top": "/uview-ui/components/u-back-top/u-back-top",
+    "u-modal": "/uview-ui/components/u-modal/u-modal"
+  }
+}

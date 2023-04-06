@@ -1,0 +1,87 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+page {
+  background-color: #f4f6f8;
+}
+
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.goods-detail .market_price.data-v-f0a9f5ba {
+  text-decoration: line-through;
+  margin-left: 15rpx;
+}
+.footer-bar.data-v-f0a9f5ba {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  background-color: #ffffff;
+  padding: 0 30rpx;
+  z-index: 9999;
+}
+.comment.data-v-f0a9f5ba {
+  display: flex;
+  padding: 30rpx;
+}
+.comment .left image.data-v-f0a9f5ba {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+}
+.comment .right.data-v-f0a9f5ba {
+  flex: 1;
+  padding-left: 20rpx;
+  font-size: 30rpx;
+}
+.comment .right .top.data-v-f0a9f5ba {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10rpx;
+}
+.comment .right .top .like.data-v-f0a9f5ba {
+  display: flex;
+  align-items: center;
+  font-size: 26rpx;
+}
+.comment .right .top .like .num.data-v-f0a9f5ba {
+  margin-right: 4rpx;
+}
+.comment .right .content.data-v-f0a9f5ba {
+  margin-bottom: 10rpx;
+}
+.comment .right .reply-box.data-v-f0a9f5ba {
+  background-color: #f2f2f2;
+  border-radius: 12rpx;
+}
+.comment .right .reply-box .item.data-v-f0a9f5ba {
+  padding: 20rpx;
+  border-bottom: solid 2rpx #e4e7ed;
+}
+.comment .right .reply-box .item .username.data-v-f0a9f5ba {
+  font-size: 24rpx;
+  color: #999999;
+}
+.comment .right .reply-box .all-reply.data-v-f0a9f5ba {
+  padding: 20rpx;
+  display: flex;
+  align-items: center;
+}
+.comment .right .reply-box .all-reply .more.data-v-f0a9f5ba {
+  margin-left: 6rpx;
+}
+.comment .right .bottom.data-v-f0a9f5ba {
+  margin-top: 20rpx;
+  display: flex;
+  font-size: 24rpx;
+  color: #9a9a9a;
+}
+

@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+.jsfun-picker .mask {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+.jsfun-picker .picker {
+  transition: all .3s ease;
+  -webkit-transform: translateY(100%);
+          transform: translateY(100%);
+  position: fixed;
+  z-index: 1000;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: #fff;
+  color: #666;
+}
+.jsfun-picker .picker.pickerShow {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.jsfun-picker .picker .title {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #efefef;
+  padding: 0rpx 20rpx;
+  line-height: 70rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+}
+.jsfun-picker .picker .title .ok {
+  color: blue;
+}
+.jsfun-picker .picker .list {
+  padding: 0rpx 10rpx;
+  margin: 20rpx 0rpx;
+  display: flex;
+  flex-flow: wrap;
+}
+.jsfun-picker .picker .list view {
+  background: #efefef;
+  text-align: center;
+  margin: 10rpx;
+  padding: 6rpx 20rpx;
+  border-radius: 6rpx;
+  color: #777;
+}
+.jsfun-picker .picker .list .active {
+  background: blue;
+  color: #fff;
+}
+.jsfun-picker .picker .mess {
+  padding: 0rpx 20rpx;
+  margin-bottom: 20rpx;
+  text-align: left;
+}
+

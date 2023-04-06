@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/**
+ * 下方引入的为uView UI的集成样式文件，为scss预处理器，其中包含了一些"u-"开头的自定义变量
+ * uView自定义的css类名和scss变量，均以"u-"开头，不会造成冲突，请放心使用 
+ */
+/**确认按钮**/
+.submit {
+  width: 100%;
+  background: white;
+  position: fixed;
+  bottom: 0rpx;
+  height: auto;
+}
+.content {
+  z-index: 999;
+}
+/**
+ * 日期部分
+ */
+.section {
+  width: 100%;
+  padding-bottom: 150rpx;
+  height: auto;
+  padding-top: 440rpx;
+  background-color: #ffffff;
+}
+.section .item .year {
+  text-align: center;
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+}
+.section .item .day {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 5px;
+  /* 节假日的日期样式 */
+  /** 非节假日的日期样式**/
+}
+.section .item .day .day-list {
+  margin-top: 15rpx;
+  margin-bottom: 15rpx;
+  width: calc(100% / 7);
+  display: flex;
+  height: 110rpx;
+  font-size: 28rpx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section .item .day .day-list .day-day {
+  font-size: 28rpx;
+}
+.section .item .day .day-list .day-price {
+  color: #999;
+  font-size: 28rpx;
+}
+.section .item .day .is-festival .day-day {
+  font-size: 22rpx;
+}
+.section .item .day .not-festival {
+  font-size: 28rpx;
+  color: white;
+}
+.section .item .day .time-out {
+  text-decoration: line-through;
+  color: #c0c0c0;
+}
+/**
+ * 头部固定
+ */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 380rpx;
+  background: white;
+  /**
+	 * 周一到周日
+	 */
+}
+.header .bar {
+  width: 100%;
+  height: 25px;
+  background: #222222;
+}
+.header .set {
+  height: 100rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.header .in-and-out {
+  height: 210rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .in-and-out .item {
+  display: flex;
+  flex-direction: column;
+  height: 100rpx;
+}
+.header .in-and-out .item .count-border {
+  width: 200rpx;
+  font-size: 30rpx;
+  height: 40rpx;
+  margin-top: 48rpx;
+  text-align: center;
+  line-height: 25rpx;
+}
+.header .in-and-out .item .count-border .count {
+  font-size: 30rpx;
+}
+.header .in-and-out .text {
+  margin-top: 100rpx;
+  font-weight: bold;
+  font-size: 36rpx;
+  color: #c0c0c0;
+}
+.header .week {
+  border-bottom: 1px solid #dcdcdc;
+  border-top: 1px solid #dcdcdc;
+  height: 70rpx;
+  display: flex;
+  margin-bottom: 20rpx;
+  justify-content: center;
+  align-items: center;
+  font-size: 26rpx;
+  background: white;
+  text-align: center;
+  padding: 0 5px;
+}
+.header .week view {
+  width: calc(100% / 7);
+}
+
